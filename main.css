@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(161, 153, 159);}
+
+.list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+   
+}
+
+.shop{
+    flex: 0 20%;
+    border-style:double;
+    border: 2.5px dotted crimson;
+    padding: 1px;
+    margin: 0.5px;
+    background-color: rgb(147, 120,101);
+    color: rgb(255, 235,205);
+}
+
+.links{
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+}
